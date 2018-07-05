@@ -124,5 +124,36 @@ public class string_1_1 {
             System.out.println("Not anagrams");
         }
     }
+
+    public static void string_1_5_space_replace(String s1){
+        //1.5 Write a method to replace all spaces in a string with ‘%20’.
+        // The thought process should be that we need to replace one characters with three so we will need to increase
+        // the size of the array accordingly
+        //Algo: 1. count number of spaces in first parsing
+        // 2. start from back, replace space with %20, keep rest of characters as it is
+        int len = s1.length();
+        int space_count = 0;
+        for(int i=0;i<len;i++)
+            if(s1.charAt(i)==' ') space_count++;
+        int new_len = len + 2*space_count;
+        char[] new_str = new char[new_len];
+        int j=len-1;
+        for(int i=new_len-1;i>=0 && j>=0;i--, j--)
+        {
+            if(s1.charAt(j)==' '){
+                new_str[i--] ='0';
+                new_str[i--] ='2';
+                new_str[i] ='%';
+            }
+            else {
+                new_str[i] = s1.charAt(j);
+            }
+        }
+        System.out.println("input: " + s1);
+        for(int i=0;i<new_len;i++)
+        {
+            System.out.print(new_str[i]);
+        }
+    }
 }
 
