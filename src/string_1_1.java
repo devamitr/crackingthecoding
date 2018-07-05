@@ -58,5 +58,71 @@ public class string_1_1 {
         }
         System.out.println("no repeating string found");
     }
+
+    public static void string_1_2_cstyle_reverse(String input){
+        //Write code to reverse a C-Style String. (C-String means that “abcd” is
+        // represented as five characters, including the null character.)
+        int len = input.length();
+        StringBuilder res_str = new StringBuilder();
+        for(int i=len-1; i>=0; i--)
+        {
+            res_str.append(input.charAt(i));
+        }
+        System.out.println(res_str);
+    }
+
+    public static void string_1_3_duplicate_char(char[] input){
+        //Design an algorithm and write code to remove the duplicate characters in a string
+        // without using any additional buffer. NOTE: One or two additional variables are fine.
+        // An extra copy of the array is not.
+        // Solution: it will be an O(n^2), as we are not allowed to use any other memory to store the characters
+        // So it will be a simple nested for loop on the string
+        for(int i=0;i<input.length;i++)
+        {
+            int temp_count = 0;
+            for(int j=0;j<input.length;j++)
+            {
+                if(input[i]==input[j])
+                {
+                    temp_count++;
+                    if(temp_count>1) {
+                        System.out.println("Match found " + input[i]);
+                        return;
+                    }
+                }
+            }
+        }
+        System.out.println("Match not found!");
+    }
+
+    public static void string_1_4_string_anagram(String s1, String s2){
+        // Write a method to decide if two strings are anagrams or not.
+        // An anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
+        // typically using all the original letters exactly once.
+        // assuming all the characters are small
+        // Another method is that you sort the two strings and equate them
+        int[] char_arr = new int[26];
+        if(s1.length() == s2.length() && s1.length()>0)
+        {
+            for(int i=0;i<s1.length();i++)
+            {
+                char_arr[s1.charAt(i)-'a']++;
+                char_arr[s2.charAt(i)-'a']--;
+            }
+            for(int i=0;i<26;i++)
+            {
+                if(char_arr[i]!=0)
+                {
+                    System.out.println("Not an anagram");
+                    return;
+                }
+            }
+            System.out.println("They are anagrams");
+        }
+        else
+        {
+            System.out.println("Not anagrams");
+        }
+    }
 }
 
