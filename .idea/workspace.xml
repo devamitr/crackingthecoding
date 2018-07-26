@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a92d92c2-1fb0-404d-9136-5ff3f89176f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/linked_list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_list_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string_1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_1_1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,35 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="string_1_1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/string_1_1.java">
+      <file leaf-file-name="linked_list_2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linked_list_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="379" column="91" selection-start-line="379" selection-start-column="91" selection-end-line="379" selection-end-column="91" />
+            <state relative-caret-position="268">
+              <caret line="238" column="78" selection-start-line="238" selection-start-column="36" selection-end-line="238" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#string_1_1_with_data_struct#0;class#string_1_1#0" />
-                <element signature="e#962#982#0" expanded="true" />
-                <element signature="method#string_1_1_without_data_structure#0;class#string_1_1#0" />
-                <element signature="method#string_1_2_cstyle_reverse#0;class#string_1_1#0" />
-                <element signature="method#string_1_3_duplicate_char#0;class#string_1_1#0" />
-                <element signature="method#string_1_4_string_anagram#0;class#string_1_1#0" />
-                <element signature="method#string_1_4_string_palindrome_permutation#0;class#string_1_1#0" />
-                <element signature="method#string_1_5_string_one_away#0;class#string_1_1#0" />
-                <element signature="method#string_1_5_space_replace#0;class#string_1_1#0" />
-                <element signature="method#string_1_6_string_compression#0;class#string_1_1#0" />
-                <element signature="method#string_1_7_matrix_rotation#0;class#string_1_1#0" />
-                <element signature="method#string_1_8_zero_matrix#0;class#string_1_1#0" />
+                <element signature="method#linkedlist_remove_duplicates_2_1_buffer#0;class#linked_list_2#0" />
+                <element signature="method#linkedlist_remove_duplicates_2_1_wo_buffer#0;class#linked_list_2#0" />
+                <element signature="method#linkedlist_kth_last_2_2_recursive#0;class#linked_list_2#0" />
+                <element signature="method#linkedlist_partition_2_4#0;class#linked_list_2#0" />
+                <element signature="method#linkedlist_sum_lists_2_4_rescursive#0;class#linked_list_2#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="implementation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="linked_list.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linked_list.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+              <folding>
+                <element signature="e#66#67#0" expanded="true" />
+                <element signature="e#93#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="implementation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/implementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="189">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -58,6 +65,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>curr2</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -65,8 +77,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ctci_string.java" />
-        <option value="$PROJECT_DIR$/src/implementation.java" />
         <option value="$PROJECT_DIR$/src/string_1_1.java" />
+        <option value="$PROJECT_DIR$/src/linked_list.java" />
+        <option value="$PROJECT_DIR$/src/linked_list_2.java" />
+        <option value="$PROJECT_DIR$/src/implementation.java" />
       </list>
     </option>
   </component>
@@ -81,8 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,6 +112,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530771172995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="till Sting1_5">
+      <created>1531459760897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531459760897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -211,7 +232,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -222,7 +243,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24980484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -240,14 +261,14 @@
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32993197" />
       <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32993197" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
@@ -257,7 +278,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" />
@@ -288,25 +309,157 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list_2.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list_2.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list_2.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementation.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list_2.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list_2.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list_2.java</url>
+          <line>215</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="34" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="curr1.data" language="JAVA" />
+        <watch expression="curr2.data" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
+    <expressions id="watch">
       <expression>
-        <expression-string>mat[i][j]</expression-string>
+        <expression-string>curr2.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mat</expression-string>
+        <expression-string>curr1.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curr.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curr_2.next.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curr_2.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>res.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res.head.next.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res.head.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curr2.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curr1.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>h1.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>head.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>l1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/linked_list_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#linkedlist_remove_duplicates_2_1_buffer#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_remove_duplicates_2_1_wo_buffer#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_kth_last_2_2_recursive#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_partition_2_4#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_sum_lists_2_4_rescursive#0;class#linked_list_2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/implementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/string_1_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4692">
@@ -366,17 +519,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ctci_string.java" />
-    <entry file="file://$PROJECT_DIR$/src/implementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string_1_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="379" column="91" selection-start-line="379" selection-start-column="91" selection-end-line="379" selection-end-column="91" />
+        <state relative-caret-position="155">
+          <caret line="378" lean-forward="true" selection-start-line="378" selection-end-line="378" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#string_1_1_with_data_struct#0;class#string_1_1#0" />
@@ -392,6 +538,39 @@
             <element signature="method#string_1_7_matrix_rotation#0;class#string_1_1#0" />
             <element signature="method#string_1_8_zero_matrix#0;class#string_1_1#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linked_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linked_list_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="238" column="78" selection-start-line="238" selection-start-column="36" selection-end-line="238" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#linkedlist_remove_duplicates_2_1_buffer#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_remove_duplicates_2_1_wo_buffer#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_kth_last_2_2_recursive#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_partition_2_4#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_sum_lists_2_4_rescursive#0;class#linked_list_2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/implementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
         </state>
       </provider>
     </entry>
