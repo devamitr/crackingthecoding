@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.*;
 
 public class linked_list_2 {
     public static LinkedList<Integer> linkedlist_remove_duplicates_2_1_buffer(LinkedList<Integer> l1){
@@ -251,5 +249,144 @@ public class linked_list_2 {
         }
 
 
+    }
+
+    public static void linkelist_palindrome_2_6_reverse_and_compare(linked_list.Node h1){
+        // there are two methods, 1. reverse and compare, 2. reverse 1st part of the LL and compare with second
+        // Method 1
+        // Reverse the LL
+        linked_list.Node rev = null;
+        linked_list.Node cur = h1;
+        while(cur!=null){
+            linked_list.Node new_node = new linked_list().new Node(cur.data);
+            if(rev==null)
+                rev = new_node;
+            else {
+                new_node.next = rev;
+                rev = new_node;
+            }
+            cur = cur.next;
+        }
+        cur = rev;
+        // print reversed LL
+        while(cur!=null){
+            System.out.println(cur.data);
+            cur = cur.next;
+        }
+
+        // compare reversed array
+        linked_list.Node cur2 = h1;
+        cur = rev;
+        while(cur!=null && cur2!=null){
+            if(cur.data!=cur2.data){
+                System.out.println("LL not a palindrome");
+                return;
+            }
+            cur = cur.next;
+            cur2 = cur2.next;
+        }
+        if(cur!=null || cur2!=null){
+            System.out.println("LL not a palindrome return");
+        }
+        else
+            System.out.println("LL is a palindrome!");
+
+    }
+
+    public static void linkedlist_palindrome_2_6_reverse_first_compare(linked_list.Node h1){
+        // in this method we will reverse the first part of the LL and compare to second part
+        //first we need to find the middle point as the lenght is not given,  we will use slow,fast runner algorithm
+        Stack<Integer> stck = new Stack<>();
+        linked_list.Node curr_slow=h1, curr_fast = h1;
+        int rev_len = 0;
+        while(curr_fast!=null && curr_fast.next !=null){
+            stck.push(curr_slow.data);
+            curr_slow = curr_slow.next;
+            curr_fast = curr_fast.next.next;
+        }
+        if(curr_fast !=null){
+            // for odd num of items
+            curr_slow = curr_slow.next;
+        }
+        while(!stck.isEmpty()){
+            int pop_val = stck.pop().intValue();
+            if(curr_slow.data != pop_val) {
+                System.out.println("LL is not a palindrome!!!");
+                return;
+            }
+            curr_slow = curr_slow.next;
+        }
+        if(curr_slow==null)
+        System.out.println("LL is a palindrome");
+        else
+            System.out.println("not palin");
+    }
+
+    public static void linkedlist_palindrome_2_6_recursive(linked_list.Node h1){
+        int len =0;
+        linked_list.Node curr = h1;
+        while(curr!=null){
+            len++;
+        }
+        linkedlist_palindrome_2_6_recursive_ispalindrome(h1, len);
+    }
+    public static linked_list.Node linkedlist_palindrome_2_6_recursive_ispalindrome(linked_list.Node h1, int len){
+        // ignore this method, if you want to see it, check out the book page 220
+        if(len==0){
+            return h1;
+        }
+        if(len==1){
+            return h1.next;
+        }
+        else {
+            linked_list.Node comp_val =  linkedlist_palindrome_2_6_recursive_ispalindrome(h1.next, len-2);
+            if(comp_val!=null) {
+                if (h1.data != comp_val.data) {
+                    System.out.println("Not a palindrome");
+                    return null;
+                } else {
+                    return comp_val.next;
+                }
+            }
+            else
+            {
+                return null;
+            }
+        }
+    }
+
+    public static linked_list.Node linkedlist_intersection_2_7(linked_list.Node h1, linked_list.Node h2){
+        // this is a brute force solution, look in book for a better solution
+        linked_list.Node curr1,curr2;
+        curr1 = h1; curr2 = h2;
+        while(curr1!=null){
+            curr2 = h2;
+            while(curr2!=null){
+                if(curr1==curr2){
+                    System.out.println("Intersection found!");
+                    return curr1;
+                }
+                curr2 = curr2.next;
+            }
+            curr1 = curr1.next;
+        }
+        System.out.println("No intersection found");
+        return null;
+    }
+
+    public static linked_list.Node linkedlist_circulatr_2_8(linked_list.Node h1){
+        HashMap<Integer, linked_list.Node> hmap = new HashMap<Integer, linked_list.Node>();
+        while(h1!=null){
+            if(!hmap.containsKey(h1.data)){
+                hmap.put(h1.data, h1);
+                h1 = h1.next;
+                continue;
+            }
+            if(h1 == hmap.get(h1.data)){
+                System.out.println("loop found");
+                return h1;
+            }
+        }
+        return null;
     }
 }

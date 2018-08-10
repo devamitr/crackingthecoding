@@ -35,7 +35,7 @@ public class implementation {
         //linked_list_2.linkedlist_partition_2_4(l2.head,7);
         //l2.print();
         int[] col1 = {1,2,3,4};
-        int[] col2 = {5,6,7};
+        int[] col2 = {5,6,7,8,9,10, 11,12 ,13};
         linked_list l3 = new linked_list();
         for(int i : col1){
             l3.add(i);
@@ -44,16 +44,48 @@ public class implementation {
         for(int i : col2){
             l4.add(i);
         }
+        int i=0;
+        linked_list l5 = new linked_list();
+        linked_list.Node curr = l3.head;
+        linked_list.Node curr2 = null;
+        for(i=0;i<4;i++){
+            if(l5.head==null) {
+                l5.head = curr;
+                curr2 = curr;
+            }
+            else{
+                curr2.next = curr;
+                curr2 = curr2.next;
+            }
+            if(i==2){
+                curr = l4.head.next;
+            }
+            else {
+                curr = curr.next;
+            }
+        }
+        l4.print();
+        l5.print();
 //        linked_list_2.linkedlist_sum_lists_2_5(l3.head,l4.head);
 //        linked_list.Node res = linked_list_2.linkedlist_sum_lists_2_5_rescursive(l3.head, l4.head, 0);
 //        while(res!=null){
 //            System.out.print(" - "+ res.data);
 //            res = res.next;
 //        }
-        linked_list.Node res = linked_list_2.linkedlist_sum_lists_2_5_reverse(l3.head, l4.head);
-        while(res!=null){
-            System.out.print(" - "+ res.data);
-            res = res.next;
-        }
+//        linked_list.Node res = linked_list_2.linkedlist_sum_lists_2_5_reverse(l3.head, l4.head);
+//        while(res!=null){
+//            System.out.print(" - "+ res.data);
+//            res = res.next;
+//        }
+        //linked_list_2.linkedlist_palindrome_2_6_reverse_first_compare(l4.head);
+//        linked_list.Node x = linked_list_2.linkedlist_intersection_2_7(l4.head, l5.head);
+//        System.out.println(x.data);
+        linked_list.Node temp_node = l4.head.next.next.next.next, temp = l4.head;
+        System.out.println("The circular node is : " + temp_node.data);
+        while(temp.next!=null)
+            temp = temp.next;
+        temp.next = temp_node;
+        linked_list.Node op = linked_list_2.linkedlist_circulatr_2_8(l4.head);
+        System.out.println(op.data);
     }
 }
