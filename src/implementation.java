@@ -2,6 +2,10 @@ import java.util.LinkedList;
 
 public class implementation {
     public static void main(String[] args) {
+        stacks_and_queues_implementation();
+    }
+
+    public static void string_implementation(){
         //string_1_1.string_1_1_without_data_structure("integer");
         //string_1_1.string_1_2_cstyle_reverse("integer");
         //string_1_1.string_1_3_duplicate_char("integer".toCharArray());
@@ -13,9 +17,9 @@ public class implementation {
         //int[][] mat = {{1,2,0,4},{5,6,7,8},{9,10,11,12},{0,14,15,16}};
         // string_1_1.string_1_7_matrix_rotation(mat);
         //string_1_1.string_1_8_zero_matrix(mat);
+    }
 
-
-
+    public static void linkedlist_implementation(){
         // Linkedlist implementation
         int[] col = {1,2,3,4,7,2,3,9,7,10,12,52,37,5};
         LinkedList<Integer> l1 = new LinkedList<>();
@@ -87,5 +91,9 @@ public class implementation {
         temp.next = temp_node;
         linked_list.Node op = linked_list_2.linkedlist_circulatr_2_8(l4.head);
         System.out.println(op.data);
+    }
+
+    public static void stacks_and_queues_implementation(){
+
     }
 }

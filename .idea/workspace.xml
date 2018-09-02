@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a92d92c2-1fb0-404d-9136-5ff3f89176f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stackk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linked_list_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_list_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +40,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="implementation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="implementation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/implementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="method#string_implementation#0;class#implementation#0" />
+                <element signature="method#linkedlist_implementation#0;class#implementation#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stackk.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stackk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#76#77#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linked_list.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linked_list.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+              <folding>
+                <element signature="e#66#67#0" expanded="true" />
+                <element signature="e#93#94#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/linked_list.java" />
         <option value="$PROJECT_DIR$/src/linked_list_2.java" />
         <option value="$PROJECT_DIR$/src/implementation.java" />
+        <option value="$PROJECT_DIR$/src/stackk.java" />
       </list>
     </option>
   </component>
@@ -104,9 +137,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,12 +256,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532589587527</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="linked list completed">
+      <created>1533880866782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533880866782</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="66" y="0" width="654" height="688" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -242,7 +281,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2484375" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -251,11 +290,11 @@
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3962585" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3298969" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -265,7 +304,8 @@
     <MESSAGE value="String 1_1" />
     <MESSAGE value="till Sting1_5" />
     <MESSAGE value="till Linkedlist 2.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="till Linkedlist 2.5" />
+    <MESSAGE value="linked list completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -453,8 +493,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/implementation.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="method#string_implementation#0;class#implementation#0" />
+            <element signature="method#linkedlist_implementation#0;class#implementation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linked_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stackk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linked_list_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#linkedlist_remove_duplicates_2_1_buffer#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_remove_duplicates_2_1_wo_buffer#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_kth_last_2_2_iterative#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_kth_last_2_2_recursive#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_delete_middle_node_2_3#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_partition_2_4#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_sum_lists_2_5#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_sum_lists_2_5_rescursive#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_sum_lists_2_5_reverse#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_sum_lists_2_5_reverse_recursive#0;class#linked_list_2#0" />
+            <element signature="method#linkelist_palindrome_2_6_reverse_and_compare#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_palindrome_2_6_reverse_first_compare#0;class#linked_list_2#0" />
+            <element signature="method#linkedlist_palindrome_2_6_recursive_ispalindrome#0;class#linked_list_2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/implementation.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="method#string_implementation#0;class#implementation#0" />
+            <element signature="method#linkedlist_implementation#0;class#implementation#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,6 +608,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -541,6 +648,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -637,13 +748,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ctci_string.java" />
-    <entry file="file://$PROJECT_DIR$/src/linked_list.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string_1_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -689,8 +793,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/implementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="method#string_implementation#0;class#implementation#0" />
+            <element signature="method#linkedlist_implementation#0;class#implementation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linked_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stackk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
