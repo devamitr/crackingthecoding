@@ -1,8 +1,9 @@
+import java.sql.SQLOutput;
 import java.util.LinkedList;
 
 public class implementation {
     public static void main(String[] args) {
-        stacks_and_queues_implementation();
+        stack3_3_implementation();
     }
 
     public static void string_implementation(){
@@ -93,7 +94,61 @@ public class implementation {
         System.out.println(op.data);
     }
 
-    public static void stacks_and_queues_implementation(){
+    public static void stack3_1_implementation(){
+        stack_3_1 stack_3 = new stack_3_1(10);
 
+        for(int i=1;i<11;i++)
+        {
+            stack_3.push(i,0);
+        }
+
+        for(int i=11;i<21;i++)
+        {
+            stack_3.push(i,1);
+        }
+
+        for(int i=21;i<31;i++)
+        {
+            stack_3.push(i,2);
+        }
+        stack_3.show(2);
+
+        System.out.println(stack_3.pop(2));
+        stack_3.show(2);
     }
+
+    public static void stack3_2_implementation(){
+        stack_3_2 stack_3 = new stack_3_2();
+        int[] inp = {5,6,3,7,2,8};
+
+        for(int i=0;i<inp.length;i++)
+        {
+            stack_3.push(inp[i]);
+        }
+        stack_3.show();
+        System.out.println();
+        for(int i=0;i<inp.length;i++)
+        {
+            System.out.print("POP value: ");
+            System.out.println(stack_3.pop());
+            System.out.print("min value: ");
+            System.out.println(stack_3.get_min());
+        }
+    }
+
+    public static void stack3_3_implementation(){
+        stack_3_3 stack33 = new stack_3_3(10);
+        for(int i=0;i<25;i++)
+        {
+            stack33.push(i);
+        }
+        stack33.show();
+        System.out.println("-------------Popping begins-----------");
+        for(int i=0;i<20;i++)
+        {
+            System.out.println(stack33.pop());
+        }
+        stack33.show();
+    }
+
 }
