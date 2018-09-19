@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 public class implementation {
     public static void main(String[] args) {
-        stack3_3_implementation();
+        stack_3_6_implementation();
     }
 
     public static void string_implementation(){
@@ -149,6 +149,31 @@ public class implementation {
             System.out.println(stack33.pop());
         }
         stack33.show();
+    }
+
+    public static void stack_3_5_implementation(){
+        int_stack stack33 = new int_stack();
+        int[] col = {5,8,4,7,10,12,25,2,6,1,35};
+        for(int i=0;i<col.length;i++)
+        {
+            stack33.push(col[i]);
+        }
+        stack33.show();
+        System.out.println("-------------Popping begins-----------");
+        stack33 = stack_3_5_1.sort_stack(stack33);
+        stack33.show();
+    }
+
+    public static void stack_3_6_implementation(){
+        int[] col = {1,2,1,2,1,2,2,2,2,1,1,1,2};
+        stack_3_6 stack36 = new stack_3_6();
+        for(int i=0;i<col.length;i++){
+            stack36.enqueue(col[i]);
+        }
+        for(int i=0;i<4;i++){
+            System.out.println(stack36.dogDequeue());
+        }
+        stack36.show();
     }
 
 }
