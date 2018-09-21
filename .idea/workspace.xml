@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a92d92c2-1fb0-404d-9136-5ff3f89176f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack_3_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_3_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_3_5_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_3_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_3_6_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin_tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gen_graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/int_tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree_4_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees_4_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation.java" afterDir="false" />
     </list>
@@ -23,59 +23,31 @@
       <file leaf-file-name="implementation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/implementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="172" column="23" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
                 <element signature="method#string_implementation#0;class#implementation#0" />
                 <element signature="method#linkedlist_implementation#0;class#implementation#0" />
                 <element signature="method#stack3_1_implementation#0;class#implementation#0" />
+                <element signature="method#stack3_3_implementation#0;class#implementation#0" />
                 <element signature="method#stack_3_5_implementation#0;class#implementation#0" />
+                <element signature="method#stack_3_6_implementation#0;class#implementation#0" />
+                <element signature="method#trees_6_2_create_bst_recur#0;class#implementation#0" />
+                <element signature="method#inOrderTrav#0;class#implementation#0" />
+                <element signature="method#trees_6_3_depth_list#0;class#implementation#0" />
+                <element signature="method#trees_6_6_bst_sucessor#0;class#implementation#0" />
+                <element signature="e#10535#10544#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stack_3_6_1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stack_3_6_1.java">
+      <file leaf-file-name="tree_4_8.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tree_4_8.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-              <folding>
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stack_3_6.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stack_3_6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-              <folding>
-                <element signature="method#stack_3_6#0;class#stack_3_6#0" />
-                <element signature="method#anyDequeue#0;class#stack_3_6#0" />
-                <element signature="method#catDequeue#0;class#stack_3_6#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linked_list.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linked_list.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#66#67#0" expanded="true" />
-                <element signature="e#93#94#0" expanded="true" />
-              </folding>
+              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -94,6 +66,9 @@
       <find>curr2</find>
       <find>Node(</find>
       <find>res</find>
+      <find>node</find>
+      <find>new</find>
+      <find>.new</find>
     </findStrings>
     <replaceStrings>
       <replace>temp</replace>
@@ -118,13 +93,19 @@
         <option value="$PROJECT_DIR$/src/stack_3_5.java" />
         <option value="$PROJECT_DIR$/src/stack_3_5_1.java" />
         <option value="$PROJECT_DIR$/src/stack_3_6.java" />
-        <option value="$PROJECT_DIR$/src/implementation.java" />
         <option value="$PROJECT_DIR$/src/stack_3_6_1.java" />
+        <option value="$PROJECT_DIR$/src/gen_graph.java" />
+        <option value="$PROJECT_DIR$/src/trees_4_2.java" />
+        <option value="$PROJECT_DIR$/src/bin_tree.java" />
+        <option value="$PROJECT_DIR$/src/int_tree.java" />
+        <option value="$PROJECT_DIR$/src/tree_node.java" />
+        <option value="$PROJECT_DIR$/src/implementation.java" />
+        <option value="$PROJECT_DIR$/src/tree_4_8.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
+    <option name="x" value="949" />
     <option name="width" value="980" />
     <option name="height" value="1031" />
   </component>
@@ -291,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537215857034</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Chaper 3 done">
+      <created>1537329189380</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537329189380</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -300,7 +288,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3282313" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -336,7 +324,8 @@
     <MESSAGE value="linked list completed" />
     <MESSAGE value="progressive update" />
     <MESSAGE value="Chaper 3 till question 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chaper 3 till question 3" />
+    <MESSAGE value="Chaper 3 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chaper 3 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -426,8 +415,14 @@
           <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="70" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="curr.data" language="JAVA" />
+        <watch expression="succ.data" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -439,17 +434,22 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>succ.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curr.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>curr2.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>curr1.data</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>curr.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -466,74 +466,53 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>temp.show();</expression-string>
+        <expression-string>succ</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inp.size</expression-string>
+        <expression-string>e</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inp.show()</expression-string>
+        <expression-string>mid+1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>values</expression-string>
+        <expression-string>s</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>curr_slow.next</expression-string>
+        <expression-string>tree.root.left.left.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>curr_slow</expression-string>
+        <expression-string>tree.root.left.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>res.data</expression-string>
+        <expression-string>tree.root.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>res.head.next.data</expression-string>
+        <expression-string>curr.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>res.head.data</expression-string>
+        <expression-string>curr.daya</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linked_list_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#linkedlist_remove_duplicates_2_1_buffer#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_remove_duplicates_2_1_wo_buffer#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_kth_last_2_2_iterative#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_kth_last_2_2_recursive#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_delete_middle_node_2_3#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_partition_2_4#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_sum_lists_2_5#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_sum_lists_2_5_reverse#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_sum_lists_2_5_reverse_recursive#0;class#linked_list_2#0" />
-            <element signature="method#linkelist_palindrome_2_6_reverse_and_compare#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_palindrome_2_6_reverse_first_compare#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_palindrome_2_6_recursive_ispalindrome#0;class#linked_list_2#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stackk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -562,12 +541,17 @@
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
+            <element signature="method#stack3_3_implementation#0;class#implementation#0" />
             <element signature="method#stack_3_5_implementation#0;class#implementation#0" />
+            <element signature="method#stack_3_6_implementation#0;class#implementation#0" />
+            <element signature="method#trees_6_2_create_bst_recur#0;class#implementation#0" />
+            <element signature="method#inOrderTrav#0;class#implementation#0" />
+            <element signature="method#trees_6_3_depth_list#0;class#implementation#0" />
+            <element signature="method#trees_6_6_bst_sucessor#0;class#implementation#0" />
+            <element signature="e#10535#10544#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -599,12 +583,17 @@
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
+            <element signature="method#stack3_3_implementation#0;class#implementation#0" />
             <element signature="method#stack_3_5_implementation#0;class#implementation#0" />
+            <element signature="method#stack_3_6_implementation#0;class#implementation#0" />
+            <element signature="method#trees_6_2_create_bst_recur#0;class#implementation#0" />
+            <element signature="method#inOrderTrav#0;class#implementation#0" />
+            <element signature="method#trees_6_3_depth_list#0;class#implementation#0" />
+            <element signature="method#trees_6_6_bst_sucessor#0;class#implementation#0" />
+            <element signature="e#10535#10544#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -658,12 +647,17 @@
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
+            <element signature="method#stack3_3_implementation#0;class#implementation#0" />
             <element signature="method#stack_3_5_implementation#0;class#implementation#0" />
+            <element signature="method#stack_3_6_implementation#0;class#implementation#0" />
+            <element signature="method#trees_6_2_create_bst_recur#0;class#implementation#0" />
+            <element signature="method#inOrderTrav#0;class#implementation#0" />
+            <element signature="method#trees_6_3_depth_list#0;class#implementation#0" />
+            <element signature="method#trees_6_6_bst_sucessor#0;class#implementation#0" />
+            <element signature="e#10535#10544#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -717,12 +711,17 @@
           <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
+            <element signature="method#stack3_3_implementation#0;class#implementation#0" />
             <element signature="method#stack_3_5_implementation#0;class#implementation#0" />
+            <element signature="method#stack_3_6_implementation#0;class#implementation#0" />
+            <element signature="method#trees_6_2_create_bst_recur#0;class#implementation#0" />
+            <element signature="method#inOrderTrav#0;class#implementation#0" />
+            <element signature="method#trees_6_3_depth_list#0;class#implementation#0" />
+            <element signature="method#trees_6_6_bst_sucessor#0;class#implementation#0" />
+            <element signature="e#10535#10544#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -776,12 +775,17 @@
           <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
+            <element signature="method#stack3_3_implementation#0;class#implementation#0" />
             <element signature="method#stack_3_5_implementation#0;class#implementation#0" />
+            <element signature="method#stack_3_6_implementation#0;class#implementation#0" />
+            <element signature="method#trees_6_2_create_bst_recur#0;class#implementation#0" />
+            <element signature="method#inOrderTrav#0;class#implementation#0" />
+            <element signature="method#trees_6_3_depth_list#0;class#implementation#0" />
+            <element signature="method#trees_6_6_bst_sucessor#0;class#implementation#0" />
+            <element signature="e#10535#10544#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1050,17 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stack_3_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack_3_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1078,22 +1071,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stack_3_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2832#2833#0" expanded="true" />
-            <element signature="e#2864#2865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack_3_5_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees_4_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gen_graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack_3_6_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack_3_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="method#stack_3_6#0;class#stack_3_6#0" />
+            <element signature="method#anyDequeue#0;class#stack_3_6#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack_3_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack_3_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linked_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin_tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/int_tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="method#min#0;class#int_tree#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,55 +1168,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linked_list.java">
+    <entry file="file://$PROJECT_DIR$/src/tree_node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#66#67#0" expanded="true" />
-            <element signature="e#93#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stack_3_6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="method#stack_3_6#0;class#stack_3_6#0" />
-            <element signature="method#anyDequeue#0;class#stack_3_6#0" />
-            <element signature="method#catDequeue#0;class#stack_3_6#0" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/implementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="172" column="23" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
+            <element signature="method#stack3_3_implementation#0;class#implementation#0" />
             <element signature="method#stack_3_5_implementation#0;class#implementation#0" />
+            <element signature="method#stack_3_6_implementation#0;class#implementation#0" />
+            <element signature="method#trees_6_2_create_bst_recur#0;class#implementation#0" />
+            <element signature="method#inOrderTrav#0;class#implementation#0" />
+            <element signature="method#trees_6_3_depth_list#0;class#implementation#0" />
+            <element signature="method#trees_6_6_bst_sucessor#0;class#implementation#0" />
+            <element signature="e#10535#10544#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stack_3_6_1.java">
+    <entry file="file://$PROJECT_DIR$/src/tree_4_8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding>
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-          </folding>
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
