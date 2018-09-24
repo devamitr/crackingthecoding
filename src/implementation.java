@@ -5,14 +5,54 @@ import java.util.*;
 
 public class implementation {
     public static void main(String[] args) {
-        int[] col = {8,4,12,2,6,10,14,1,3,5,7,9,11,13,15};
-        int_tree my_tree = new int_tree(col[0]);
-        for(int i=1;i<col.length;i++){
-            my_tree.root.insert(col[i]);
+        //String[] strary = {"tik", "sex","race", "god", "tip", "pit", "dog", "care","kit",  "exs", "acer"};
+
+        search_sort ss = new search_sort();
+        //ss.sort_anagram(strary);
+        int[] inp = new int[100];
+        int[] col = {4,5,7,9,10,12};
+        for(int i=0;i<col.length;i++){
+            inp[i] = col[i];
         }
-        System.out.println(trees_6_8_common_ancestor(my_tree.root.left.left.right, my_tree.root.left.left.left));
-        System.out.println(tree_4_8.ancestor_without_parent_links(my_tree.root,my_tree.root.left.left.right, my_tree.root.left.left.left));
-        System.out.println(tree_4_8.ancestor_with_parent_links(my_tree.root,my_tree.root.left.left.right, my_tree.root.left.left.left));
+        for(int i=col.length;i<100;i++){
+            inp[i] = -1;
+        }
+        int res = ss.search_nosize(inp,12,0);
+        System.out.println(res);
+//        int[] col = {8,4,12,2,6,10,14,1,3,5,7,9,11,13,15};
+//        int_tree my_tree = new int_tree(col[0]);
+//        for(int i=1;i<col.length;i++){
+//            my_tree.root.insert(col[i]);
+//        }
+
+//        dynamic_prog dp = new dynamic_prog();
+//
+//        dp.flatten(my_tree.root);
+//        my_tree.root.inOrderTrav();
+        //System.out.println(dp.child_123(36));
+
+        // ques 2
+//        boolean[][] inp = new boolean[10][12];
+//        for(int i=0;i<10;i++){
+//            for(int j=0;j<12;j++){
+//                inp[i][j] = true;
+//            }
+//        }
+//        inp[2][7] = false;
+//        inp[3][9] = false;
+//        inp[5][8] = false;
+//        inp[9][9] = false;
+//        inp[8][7] = false;
+//        ArrayList<Point> res = dp.getPath(inp);
+//        for(int i=0;i<res.size();i++){
+//            Point p = res.get(i);
+//            System.out.println("row:" + Integer.toString(p.row));
+//            System.out.println("col:" + Integer.toString(p.col));
+//        }
+
+        //que 3 DP
+        //int[] inp = {-50,-40,1,2,3,5,7,8};
+        //System.out.println(dp.magic_index(inp,0,inp.length));
     }
 
     public static void string_implementation(){
