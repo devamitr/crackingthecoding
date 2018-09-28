@@ -106,4 +106,19 @@ public class search_sort {
         }
         else return -1;
     }
+
+    // Ques 9
+    public class tuple{
+        int row,col;
+        public tuple(int r, int c){
+            row = r;
+            col = c;
+        }
+    }
+//    public static tuple sorted_matrix_search(int[][] inp, int row_strt, int row_end, int col_strt, int col_end){
+//        if(row_strt<row_end && col_strt<col_end){
+//
+//        }
+//
+//    }
 }

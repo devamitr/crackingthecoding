@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a92d92c2-1fb0-404d-9136-5ff3f89176f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_prog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/int_permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merge_sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search_sort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,13 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="implementation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="implementation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/implementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="101">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#main_old#0;class#implementation#0" />
                 <element signature="method#string_implementation#0;class#implementation#0" />
                 <element signature="method#linkedlist_implementation#0;class#implementation#0" />
                 <element signature="method#stack3_1_implementation#0;class#implementation#0" />
@@ -54,8 +52,8 @@
       <file leaf-file-name="search_sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search_sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+            <state relative-caret-position="384">
+              <caret line="121" column="2" lean-forward="true" selection-start-line="121" selection-start-column="2" selection-end-line="121" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sort_anagram#0;class#search_sort#0" />
@@ -63,16 +61,36 @@
                 <element signature="method#search_rotated#0;class#search_sort#0" />
                 <element signature="method#find_split#0;class#search_sort#0" />
                 <element signature="method#binary_search#0;class#search_sort#0" />
+                <element signature="method#search_nosize#0;class#search_sort#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leet_code.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="leet_code.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leet_code.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="42" selection-start-line="2" selection-start-column="8" selection-end-line="29" selection-end-column="42" />
+            <state relative-caret-position="367">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+              <folding>
+                <element signature="method#countAndSay#0;class#leet_code#0" />
+                <element signature="e#1031#1060#0" expanded="true" />
+                <element signature="method#verticalOrder#0;class#leet_code#0" />
+                <element signature="e#1534#1549#0" expanded="true" />
+                <element signature="method#helper#0;class#leet_code#0" />
+                <element signature="method#buildTree#0;class#leet_code#0" />
+                <element signature="method#helper#1;class#leet_code#0" />
+                <element signature="method#search#0;class#leet_code#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -126,17 +144,18 @@
         <option value="$PROJECT_DIR$/src/tree_node.java" />
         <option value="$PROJECT_DIR$/src/tree_4_8.java" />
         <option value="$PROJECT_DIR$/src/int_permutation.java" />
-        <option value="$PROJECT_DIR$/src/leet_code.java" />
         <option value="$PROJECT_DIR$/src/Point.java" />
         <option value="$PROJECT_DIR$/src/dynamic_prog.java" />
         <option value="$PROJECT_DIR$/src/search_sort.java" />
         <option value="$PROJECT_DIR$/src/implementation.java" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
+        <option value="$PROJECT_DIR$/src/leet_code.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -146,9 +165,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537558966640</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Chapter 10">
+      <created>1537831841313</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1537831841314</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -333,12 +359,11 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3469388" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32943013" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.3469388" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21311475" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21311475" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -346,6 +371,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3962585" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32943013" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -364,7 +390,8 @@
     <MESSAGE value="progressive update" />
     <MESSAGE value="Chaper 3 till question 3" />
     <MESSAGE value="Chaper 3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chaper 3 done" />
+    <MESSAGE value="Chapter 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,13 +488,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leet_code.java</url>
-          <line>2</line>
+          <line>10</line>
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leet_code.java</url>
-          <line>20</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
@@ -519,12 +546,30 @@
           <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leet_code.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leet_code.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leet_code.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="86" />
+      <option name="time" value="96" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="root.data" language="JAVA" />
+        <watch expression="root.val" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -537,6 +582,11 @@
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>root.val</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>root.data</expression-string>
         <language-id>JAVA</language-id>
@@ -580,6 +630,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>root.right.left</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>root.right.right</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -590,77 +645,45 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
+        <expression-string>root.left</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>root_index</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Arrays.binarySearch(inorder,3)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>preorder[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>com_map</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>temp_res</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>succ</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>e</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mid+1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>s</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tree.root.left.left.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/stackk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linked_list_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#linkedlist_remove_duplicates_2_1_buffer#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_remove_duplicates_2_1_wo_buffer#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_kth_last_2_2_iterative#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_kth_last_2_2_recursive#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_delete_middle_node_2_3#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_partition_2_4#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_sum_lists_2_5#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_sum_lists_2_5_reverse#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_sum_lists_2_5_reverse_recursive#0;class#linked_list_2#0" />
-            <element signature="method#linkelist_palindrome_2_6_reverse_and_compare#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_palindrome_2_6_reverse_first_compare#0;class#linked_list_2#0" />
-            <element signature="method#linkedlist_palindrome_2_6_recursive_ispalindrome#0;class#linked_list_2#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/implementation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#main_old#0;class#implementation#0" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
@@ -722,6 +745,7 @@
           <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#main_old#0;class#implementation#0" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
@@ -783,6 +807,7 @@
           <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#main_old#0;class#implementation#0" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
@@ -1197,17 +1222,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_code.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="42" selection-start-line="2" selection-start-column="8" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/search_sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+        <state relative-caret-position="384">
+          <caret line="121" column="2" lean-forward="true" selection-start-line="121" selection-start-column="2" selection-end-line="121" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#sort_anagram#0;class#search_sort#0" />
@@ -1215,16 +1233,18 @@
             <element signature="method#search_rotated#0;class#search_sort#0" />
             <element signature="method#find_split#0;class#search_sort#0" />
             <element signature="method#binary_search#0;class#search_sort#0" />
+            <element signature="method#search_nosize#0;class#search_sort#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/implementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="101">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#main_old#0;class#implementation#0" />
             <element signature="method#string_implementation#0;class#implementation#0" />
             <element signature="method#linkedlist_implementation#0;class#implementation#0" />
             <element signature="method#stack3_1_implementation#0;class#implementation#0" />
@@ -1241,6 +1261,41 @@
             <element signature="method#trees_6_5_bt_bst#0;class#implementation#0" />
             <element signature="method#trees_6_6_bst_sucessor#0;class#implementation#0" />
             <element signature="method#trees_6_8_common_ancestor#0;class#implementation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="1862" column="22" selection-start-line="1862" selection-start-column="22" selection-end-line="1862" selection-end-column="22" />
+          <folding>
+            <element signature="e#88329#88330#0" expanded="true" />
+            <element signature="e#88386#88387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="method#countAndSay#0;class#leet_code#0" />
+            <element signature="e#1031#1060#0" expanded="true" />
+            <element signature="method#verticalOrder#0;class#leet_code#0" />
+            <element signature="e#1534#1549#0" expanded="true" />
+            <element signature="method#helper#0;class#leet_code#0" />
+            <element signature="method#buildTree#0;class#leet_code#0" />
+            <element signature="method#helper#1;class#leet_code#0" />
+            <element signature="method#search#0;class#leet_code#0" />
           </folding>
         </state>
       </provider>

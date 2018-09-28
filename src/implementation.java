@@ -5,12 +5,21 @@ import java.util.*;
 
 public class implementation {
     public static void main(String[] args) {
+        leet_code lc = new leet_code();
+
+        lc.buildTree(new int[] {3,9,20,15,7}, new int[] {9,3,15,20,7});
+
+
+    }
+
+    public static void main_old(){
         //String[] strary = {"tik", "sex","race", "god", "tip", "pit", "dog", "care","kit",  "exs", "acer"};
 
         search_sort ss = new search_sort();
         //ss.sort_anagram(strary);
         int[] inp = new int[100];
-        int[] col = {4,5,7,9,10,12};
+        int[] col =
+                {4,5,7,9,10,12};
         for(int i=0;i<col.length;i++){
             inp[i] = col[i];
         }
